@@ -1,0 +1,24 @@
+# --- Data (optional) ---
+data/
+!data/*.sample
+!data/*.example
+
+# --- Logs ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- HuggingFace cache ---
+huggingface/
+.cache/
+transformers_cache/
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
